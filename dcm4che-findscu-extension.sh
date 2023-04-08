@@ -1,7 +1,7 @@
 #!/bin/bash
-#Persistent Environment Variables: /home/midas-admin/.bash_profile {DCM4CHE_PATH, OPTIMIZE_AET, OPTIMIZE_IP, OPTIMIZE_Port, PACS_#_AET, PACS_#_IP, PACS_#_Port, ...}
+#Persistent Environment Variables: ~/.bash_profile {DCM4CHE_PATH, OPTIMIZE_AET, OPTIMIZE_IP, OPTIMIZE_Port, PACS_#_AET, PACS_#_IP, PACS_#_Port, ...}
 SELECTED_DATE="$1"
-RESULTS_PATH=/home/midas-admin/DICOM_QR
+RESULTS_PATH=~/DICOM_QR
 PACS_AET=$PACS_1_AET
 PACS_IP=$PACS_1_IP
 PACS_Port=$PACS_1_Port
